@@ -1047,6 +1047,32 @@ figcaption>figure>img {
     letter-spacing: 2px;
     
 }
+@media screen and (max-width: 3049px) {
+    ul>li:last-child {
+        padding-left: 20%;
+    }
+    .header_main>h1, .header_main>p  {
+        color: white;
+    }
+    .fromright {
+        overflow-y: hidden;
+    }
+    header {
+        overflow: hidden;
+    }
+    .skills {
+        margin-top: -42px;
+    }
+    .master_item:nth-child(2) {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+@media screen and (max-width: 2449px) {
+    ul>li:last-child {
+        padding-left: 15%;
+    }
+}
 @media screen and (max-width: 2048px) {
     ul {
         padding-top: 30px;
